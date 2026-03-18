@@ -1,127 +1,117 @@
-📊 Employee Attrition Prediction & Salary Tier Forecasting
-📌 Overview
+<h1 align="center">📊 Employee Attrition Prediction & Salary Tier Forecasting</h1>
 
-This project uses machine learning techniques to predict employee attrition and forecast salary tiers, enabling organizations to make data-driven HR decisions. It analyzes employee demographics, job-related attributes, compensation details, and engagement metrics to identify patterns that influence employee turnover and salary distribution.
+<p align="center">
+  🚀 Machine Learning Project for HR Analytics & Decision Making
+</p>
 
-The system predicts:
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9-blue?logo=python">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen">
+</p>
 
-Attrition (LeaveOrNot): Whether an employee is likely to leave
+<p align="center">
+  🔥 A real-world HR analytics project combining predictive modeling and business insights
+</p>
 
-Salary Tier (PaymentTier): Expected salary category of an employee
+---
 
-By combining both predictions, the project helps improve employee retention strategies and optimize compensation planning.
+## 📌 Overview
 
-🎯 Objectives
+This project leverages machine learning to predict **employee attrition** and forecast **salary tiers**, enabling organizations to make data-driven HR decisions.
 
-Predict employees at risk of leaving the organization
+It analyzes employee demographics, job-related attributes, compensation details, and engagement metrics to uncover patterns influencing workforce behavior.
 
-Forecast appropriate salary tiers based on employee data
+### 🔮 Predictions
+- **Attrition (`LeaveOrNot`)** → Whether an employee is likely to leave  
+- **Salary Tier (`PaymentTier`)** → Expected salary category  
 
-Identify key factors influencing attrition
+By combining both predictions, this system helps organizations improve retention strategies and optimize compensation planning.
 
-Support HR teams in decision-making and workforce planning
+---
 
-📂 Dataset Features
+## 🎯 Objectives
 
-The dataset includes:
+- Identify employees at risk of leaving  
+- Forecast appropriate salary tiers  
+- Analyze key drivers of attrition  
+- Support HR decision-making and workforce planning  
 
-Demographics: Age, Gender, Marital Status, Education
+---
 
-Job Details: Department, Job Role, Experience, Promotion History
+## 📂 Dataset Features
 
-Compensation: Salary, Bonuses, Benefits
+- **Demographics:** Age, Gender, Marital Status, Education  
+- **Job Details:** Department, Role, Experience, Promotions  
+- **Compensation:** Salary, Bonuses, Benefits  
+- **Engagement:** Job Satisfaction, Overtime, Work-Life Balance  
 
-Engagement Metrics: Job Satisfaction, Overtime, Work-Life Balance
+---
 
-⚙️ Technologies Used
+## ⚙️ Tech Stack
 
-Python
+- **Python**  
+- **Pandas, NumPy** → Data Processing  
+- **Matplotlib, Seaborn** → Visualization  
+- **Scikit-learn** → Machine Learning  
 
-Pandas, NumPy – Data preprocessing
+---
 
-Matplotlib, Seaborn – Data visualization
+## 🤖 Machine Learning Models
 
-Scikit-learn – Machine learning models
+- Logistic Regression  
+- Random Forest  
+- *(Optional: XGBoost)*  
 
-🤖 Machine Learning Models
+Models are trained using a **train-test split** and evaluated using performance metrics like accuracy.
 
-Logistic Regression
+---
 
-Random Forest
+## 🔍 Workflow
 
-(Optional: XGBoost if used)
+1. 📥 Data Collection  
+2. 🧹 Data Cleaning & Preprocessing  
+3. 📊 Exploratory Data Analysis (EDA)  
+4. 🏗️ Feature Engineering  
+5. 🤖 Model Training  
+6. 📈 Model Evaluation  
+7. 🔎 Prediction & Insights  
 
-The models are trained using a train-test split approach and evaluated using performance metrics such as accuracy.
+---
 
-🔍 Workflow
+## 📈 Model Performance
 
-Data Collection
+| Model               | Accuracy |
+|--------------------|----------|
+| Logistic Regression| ~82%     |
+| Random Forest      | ~88%     |
 
-Data Cleaning & Preprocessing
+---
 
-Exploratory Data Analysis (EDA)
+## 📊 Key Insights
 
-Feature Engineering
+- 💰 Low salary & fewer hikes increase attrition risk  
+- ⏱️ Overtime → higher employee turnover  
+- 👩‍💼 Entry-level employees show higher attrition  
+- 📉 Poor work-life balance impacts retention  
 
-Model Training
+---
 
-Model Evaluation
+## 🚀 Results
 
-Prediction & Insights
+- ✅ Achieved high prediction accuracy  
+- ✅ Identified key attrition drivers  
+- ✅ Enabled data-driven HR strategies  
 
-📈 Key Insights
+---
 
-Low salary and fewer salary hikes increase attrition risk
+## 💡 Business Impact
 
-Overtime and poor work-life balance contribute to higher turnover
+- 📉 Reduced employee turnover  
+- 😊 Improved employee satisfaction  
+- 💵 Optimized compensation planning  
+- 📊 Better workforce decision-making  
 
-Entry-level and single employees show higher attrition rates
+---
 
-Salary tier forecasting helps in proactive compensation planning
-
-🚀 Results
-
-Achieved high prediction accuracy using machine learning models
-
-Identified key drivers of employee attrition
-
-Enabled better workforce planning and retention strategies
-
-💡 Business Impact
-
-Reduced employee turnover
-
-Improved employee satisfaction
-
-Optimized compensation management
-
-Data-driven HR decision making
-
-▶️ How to Run
-
-Clone the repository:
-
-git clone https://github.com/your-username/your-repo-name.git
-
-Navigate to the project folder:
-
-cd your-repo-name
-
-Install required libraries:
-
-pip install -r requirements.txt
-
-Run the Jupyter Notebook:
-
-jupyter notebook
-📌 Future Improvements
-
-Deploy as a web application
-
-Use advanced models like XGBoost or Deep Learning
-
-Integrate real-time HR analytics dashboard
-
-👩‍💻 Author
-
-Veena
+## 📁 Project Structure
