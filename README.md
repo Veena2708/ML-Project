@@ -112,6 +112,4 @@ Models are trained using a **train-test split** and evaluated using performance 
 - 💵 Optimized compensation planning  
 - 📊 Better workforce decision-making  
 
----
 
-## 📁 Project Structure
